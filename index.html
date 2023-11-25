@@ -1,0 +1,135 @@
+<!-- Updated index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Welcome to Noble Grammar High School, a beacon of learning and community. At Noble Grammar High School, we foster a dynamic environment where curiosity is ignited, friendships are formed, and dreams are realized. Our commitment to excellence, coupled with dedicated educators, creates a nurturing space for students to flourish academically and personally. Join us on a journey of education and discovery at Noble Grammar High School.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Aguafina Script' rel='stylesheet'>
+    <title>The Noble Grammar High School</title>
+    <meta name="description"
+        content="Explore The Noble Grammar High School, a beacon of learning and community. Join us on a journey of excellence and discovery.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index-style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var progressLine = document.getElementById('progress-line');
+
+            // Add a listener for animation end
+            progressLine.addEventListener('animationend', function () {
+                // Check if the animation is complete
+                if (progressLine.style.width === '100vw') {
+                    // Add the 'hidden' class if the animation is complete
+                    progressLine.classList.add('hidden');
+                } else {
+                    // Reset the width and remove the 'hidden' class if the animation is not complete
+                    progressLine.style.width = '0';
+                    progressLine.style.height = '0';
+                    progressLine.classList.remove('hidden');
+                }
+            });
+        });
+    </script>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Noble Grammar High School",
+          "description": "Discover excellence at Noble Grammar High School, Where learning is an adventure and friendships last a lifetime.",
+          "url": "https://noblegrammarhighschool.github.io",
+          "sameAs": [
+            "https://www.facebook.com/Sabirhusseinbalal/",
+            "https://twitter.com/SabirBalal",
+            "https://www.upwork.com/freelancers/~014d19ce109591c1de"
+          ]
+        }
+        </script>
+
+    <meta property="og:title" content="The Noble Grammar High School">
+    <meta property="og:description"
+        content="Discover excellence at Noble Grammar High School, Where learning is an adventure and friendships last a lifetime. Your journey begins here!">
+    <meta property="og:image" content="https://yourwebsite.com/pics/NobleGrammarHighSchol.jpg">
+    <meta property="og:url" content="https://noblegrammarhighschool.github.io">
+    <!-- iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Your School">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Noble Grammar High School">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@SabirBalal">
+    <meta name="twitter:title" content="The Noble Grammar High School">
+    <meta name="twitter:description"
+        content="Discover excellence at Noble Grammar High School, Where learning is an adventure and friendships last a lifetime. Your journey begins here!">
+    <meta name="twitter:image" content="https://twitter.com/SabirBalal">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGWJBKG3CD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SGWJBKG3CD');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1452742994043888"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="progress-line" class="progress-line"></div>
+    <header>
+        <nav>
+            <h1>NOBLE GRAMMAR HIGH SCHOOL</h1>
+            <div class="search">
+                <input type="text" name="" id=""
+                    placeholder="Assalam O ALaikum, and welcome! This website was crafted by Sabir Hussain Balal.">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <section class="about">
+        <div class="main">
+            <img src="NobleGrammarHighSchol.jpg" alt="Noble Grammar High School Building">
+            <div class="about-text">
+                <h1>Noble Grammar High School</h1>
+                <p>
+                    Welcome to The Noble Grammar High School, a place where education goes beyond boundaries and dreams
+                    find wings. Join us on a journey of excellence, friendship, and the joy of discovery.
+                </p>
+                <button type="button"><a href="Main-Page.html" target="_main">Main-Page</a></button>
+                <button type="button" class="cv"><a href="contact.html" target="_main">Contact</a></button>
+                <button type="button" class="cv"><a href="about.html" target="_main">About</a></button>
+            </div>
+        </div>
+        <main>
+            <div class="intro">
+                <p>
+                    <hr>
+                    Noble Grammar High School is a haven of learning and inspiration. As you step into our vibrant
+                    community, you'll discover a world where each student's journey is a tale of exploration and
+                    growth. Our classrooms echo with laughter, and our halls are adorned with the dreams of
+                    tomorrow's leaders.
+                    <br>
+                    Our mission at Noble Grammar High School is to empower students with knowledge, creativity, and a
+                    sense of responsibility. Guided by our vision of a holistic educational journey, our core values
+                    include teamwork, integrity, innovation, and community engagement, defining the path toward a
+                    well-rounded and fulfilling student experience.
+                    <hr>
+                </p>
+                <div class="Website-Made-By"><a href="sabir.html" target="_main">This website was crafted by?</a></div>
+            </div>
+        </main>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 Noble Grammar High School. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
