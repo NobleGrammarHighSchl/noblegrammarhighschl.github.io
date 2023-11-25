@@ -14,7 +14,7 @@ header {
     padding: 10px;
     text-align: center;
     animation: slideInTop 1s ease-in-out; /* Adding a slide-in animation from the top */
-    font-family: "sofia", 'Aguafina Script' ;font-size: 22px;
+    font-family: 'Aguafina Script' ;font-size: 22px;
     text-transform: capitalize;
 }
 
